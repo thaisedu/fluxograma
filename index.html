@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Casa Abandonada</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-casa.png" alt="Imagem de uma casa abandonada à noite">
+            <p>Em uma noite chuvosa, você e seus amigos decidem explorar uma antiga casa abandonada que dizem estar assombrada. Logo na entrada, você sente o ar gelado e ouve sussurros vindos de dentro da casa. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="1">Entrar na casa</button>
+            <button class="btn-proximo" data-proximo="2">Ir embora</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Ao entrar, as luzes piscam e você vê sombras se movendo pelas paredes. Há uma escada que leva ao andar de cima e uma porta que parece dar para o porão. Para onde você vai?</p>
+            <button class="btn-proximo" data-proximo="3">Subir as escadas</button>
+            <button class="btn-proximo" data-proximo="4">Descer para o porão</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você decide que não vale a pena arriscar e volta para casa, mas sempre se pergunta o que poderia ter encontrado naquela noite sombria.</p>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Subindo as escadas, você escuta passos atrás de você, mas não vê ninguém. No fim do corredor, há dois quartos. Qual você escolhe?</p>
+            <button class="btn-proximo" data-proximo="5">Entrar no primeiro quarto</button>
+            <button class="btn-proximo" data-proximo="6">Entrar no segundo quarto</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>No porão, você encontra um velho baú trancado. Ao tentar abri-lo, a luz da lanterna começa a falhar. De repente, você ouve algo se movendo atrás de você. O que faz?</p>
+            <button class="btn-proximo" data-proximo="7">Abrir o baú rapidamente</button>
+            <button class="btn-proximo" data-proximo="8">Correr para fora do porão</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>No primeiro quarto, você encontra um espelho antigo que parece distorcer seu reflexo. Ao se aproximar, você vê algo se movendo atrás de você no reflexo. O que você faz?</p>
+            <button class="btn-proximo" data-proximo="9">Virar-se rapidamente</button>
+            <button class="btn-proximo" data-proximo="10">Sair correndo do quarto</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Entrando no segundo quarto, você encontra um diário empoeirado em cima da cama. Ao lê-lo, descobre que a casa pertenceu a uma família desaparecida há décadas. De repente, uma porta escondida se abre na parede.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a porta secreta</button>
+            <button class="btn-proximo" data-proximo="12">Ignorar e voltar para o corredor</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Ao abrir o baú, você encontra fotos antigas da família que morava ali. De repente, algo invisível puxa as fotos de suas mãos e as portas do porão se fecham com um estrondo.</p>
+            <button class="btn-proximo" data-proximo="13">Tentar escapar do porão</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Você corre para fora do porão e sente um alívio imediato ao sair, mas sabe que algo dentro daquela casa ainda está te observando.</p>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>Ao se virar, você não vê ninguém, mas sente uma presença fria ao seu lado. De repente, o espelho trinca sozinho, e uma figura fantasmagórica aparece nele.</p>
+            <button class="btn-proximo" data-proximo="14">Confrontar a figura</button>
+            <button class="btn-proximo" data-proximo="15">Correr do quarto</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <p>Você sai correndo do quarto, mas escuta sussurros que parecem te seguir. Ao olhar para trás, vê a porta se fechando sozinha.</p>
+        </div>
+        <div class="passo" id="passo-11">
+            <p>Explorando a porta secreta, você descobre um quarto oculto cheio de velas apagadas e símbolos estranhos nas paredes. Uma sensação de pavor toma conta de você.</p>
+            <button class="btn-proximo" data-proximo="16">Acender uma vela</button>
+            <button class="btn-proximo" data-proximo="17">Voltar e sair da casa</button>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>Você decide não explorar a porta secreta, mas ao sair do quarto, escuta a porta se fechar sozinha atrás de você. Algo na casa parece estar se movendo nas sombras.</p>
+        </div>
+        <div class="passo" id="passo-13">
+            <p>Você tenta escapar do porão, mas a porta parece trancada. A cada tentativa, os sussurros se intensificam. A única saída é continuar explorando o porão em busca de outra pista.</p>
+        </div>
+        <div class="passo" id="passo-14">
+            <p>Confrontando a figura no espelho, você descobre que ela era um dos antigos moradores da casa, preso ali por uma maldição. Ele te avisa que a casa está viva e que você precisa sair antes que seja tarde demais.</p>
+            <button class="btn-proximo" data-proximo="17">Sair correndo da casa</button>
+        </div>
+        <div class="passo" id="passo-15">
+            <p>Ao tentar fugir do quarto, você tropeça e ouve a figura fantasmagórica se aproximando rapidamente. Você precisa se levantar e correr antes que ela te alcance.</p>
+        </div>
+        <div class="passo" id="passo-16">
+            <p>Ao acender a vela, todas as outras velas do quarto se acendem sozinhas, e um círculo luminoso se forma ao seu redor. Algo está prestes a acontecer.</p>
+            <button class="btn-proximo" data-proximo="18">Ficar e ver o que acontece</button>
+        </div>
+        <div class="passo" id="passo-17">
+            <p>Você decide sair da casa antes que mais coisas estranhas aconteçam, mas os sussurros da casa ainda ecoam em sua mente, como se algo estivesse te seguindo.</p>
+        </div>
+        <div class="passo" id="passo-18">
+            <p>Uma figura sombria aparece no círculo de luz, revelando-se como o espírito de alguém que foi amaldiçoado dentro da casa. Você agora é parte da maldição, preso para sempre neste lugar sombrio.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
